@@ -8,3 +8,4 @@ def web_automation():
     
     for url in URLS:
         print(f"Opening: {url}")
+        wb.get(chrome_path).open(url)
