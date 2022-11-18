@@ -7,3 +7,4 @@ def web_automation():
     URLS = ("softuni.bg", "judge.softuni.org", "youtube.com")
     
     for url in URLS:
+        print(f"Opening: {url}")
