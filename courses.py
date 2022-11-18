@@ -1,13 +1,4 @@
-# Задача 8:
 
-def output(my_dict):
-
-    for key, value in my_dict.items():
-        print(f"{key}: {len(value)}")
-        for name in value:
-            print(f"-- {name}")
-
-def softuni_courses():
 
     command = input().split(" : ")
 
